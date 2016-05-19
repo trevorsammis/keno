@@ -1,0 +1,183 @@
+body{
+	background-color: gray;
+}
+
+/* CSS for "first scene" */
+
+.tag {
+	position: absolute;
+	left: 526px;
+	top: 136px;
+	z-index: 1000;
+	padding: 5px;
+	color: #00FF00;
+	font-weight: bold;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 48px;
+}
+	
+#modal-content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* background "numbers" board */
+#container{
+    position: absolute;
+    left: 0px;
+    top: 25px;
+    width: 640px;
+    height: 333px;
+	background-image: url("images/ct_backdrop_pink.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    overflow: visible;
+}
+
+/* style for ALL "numbers" */
+.num{
+	border-radius: 50%;
+}
+
+/* SPOTS */
+.spot{
+	height: 35px;
+	width: 35px;
+	background-color: none;
+	position: absolute;
+	display: none;
+	background-image: url("images/white_ball.png");
+	background-size: 100% 100%;
+	text-align: center;
+	line-height: 2.75ex;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 24px;
+}
+
+/* CSS for "second scene" winning numbers in order*/
+
+#secondScene{
+	font-size: 46px;
+	position: absolute;
+	top: 25px;
+    width: 640px;
+    height: 333px;
+	background-image: url("images/ct_backdrop_pink_2_win.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    overflow: hidden;
+	color:white;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.winningNum{
+	position: absolute;
+	z-index: 200;
+	text-shadow: 3px 3px 3px #777777;
+	text-align: center;
+	width: 50px;
+}	
+
+#win1{
+	left: 100px;
+	top: 15px;
+}
+
+#win2{
+	left: 200px;
+	top: 15px;
+}
+
+#win3{
+	left: 297px;
+	top: 15px;
+}
+
+#win4{
+	left: 395px;
+	top: 15px;
+}
+
+#win5{
+	left: 495px;
+	top: 15px;
+}
+
+#win6{
+	left: 100px;
+	top: 81px;
+}
+
+#win7{
+	left: 200px;
+	top: 81px;
+}
+
+#win8{
+	left: 300px;
+	top: 81px;
+}
+
+#win9{
+	left: 397px;
+	top: 81px;
+}
+
+#win10{
+	left: 497px;
+	top: 81px;
+}
+
+#win11{
+	left: 100px;
+	top: 148px;
+}
+
+#win12{
+	left: 199px;
+	top: 148px;
+}
+
+#win13{
+	left: 299px;
+	top: 148px;
+}
+
+#win14{
+	left: 398px;
+	top: 148px;
+}
+
+#win15{
+	left: 497px;
+	top: 148px;
+}
+
+#win16{
+	left: 100px;
+	top: 215px;
+}
+
+#win17{
+	left: 200px;
+	top: 215px;
+}
+
+#win18{
+	left: 300px;
+	top: 215px;
+}
+
+#win19{
+	left: 398px;
+	top: 215px;
+}
+
+#win20{
+	left: 498px;
+	top: 215px;
+}
